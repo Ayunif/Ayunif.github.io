@@ -342,16 +342,16 @@ form .btn2 {
     }
 	
 	.header-text{
-		margin-top: 60%;
+		margin-top: 100%;
 		font-size: 16px;
 		color: #fff; /* Set the text color to ensure visibility against the background */
                 text-align: center; /* Center the text horizontally */
-		font-family: 'sans-serif', sans-serif; 
+		
 	}
 	
 	.header-text h1{
 		font-size: 30px;
-		 margin-bottom: 10px; /* Add some bottom margin to separate the text from the background */
+		 margin-bottom: 30px; /* Add some bottom margin to separate the text from the background */
 	}
 	
 	nav .fas{

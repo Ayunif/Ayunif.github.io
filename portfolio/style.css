@@ -334,7 +334,7 @@ form .btn2 {
  }
  @media only screen and (max-width: 600px) {
     #header {
-        background-image: url('cover-phone.jpg'); /* Make sure to use the correct file path and name */
+        background-image: url('5.jpg'); /* Make sure to use the correct file path and name */
         background-size: cover; /* Ensure the background image covers the entire container */
         background-position: center; /* Center the background image */
         background-repeat: no-repeat; /* Do not repeat the background image */
@@ -374,7 +374,44 @@ form .btn2 {
 	 top: 25px;
 	 left: 25px;
 	 cursor: pointer;
- }
+  #portfolio {
+        padding: 20px; /* Adjust padding as needed */
+        text-align: center; /* Center the content within the portfolio section */
+    }
+
+    #work-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .work img {
+        max-width: 100%; /* Ensure images don't exceed the width of their container */
+        height: auto; /* Maintain the aspect ratio of images */
+    }
+
+    .work .layer {
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .work h3 {
+        font-size: 20px; /* Adjust the font size as needed */
+    }
+
+    .work p {
+        font-size: 14px; /* Adjust the font size as needed */
+    }
+
+    .btn {
+        display: block;
+        margin: 20px auto; /* Center the button */
+    }
+}
 	 
  }
  

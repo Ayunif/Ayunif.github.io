@@ -374,7 +374,12 @@ form .btn2 {
 	 top: 25px;
 	 left: 25px;
 	 cursor: pointer;
-  #portfolio {
+ }
+
+/* Existing styles for larger screens */
+
+@media only screen and (max-width: 600px) {
+    #portfolio {
         padding: 20px; /* Adjust padding as needed */
         text-align: center; /* Center the content within the portfolio section */
     }
@@ -411,6 +416,8 @@ form .btn2 {
         display: block;
         margin: 20px auto; /* Center the button */
     }
+}
+
 }
 	 
  }

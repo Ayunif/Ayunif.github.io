@@ -334,7 +334,7 @@ form .btn2 {
  }
  @media only screen and (max-width: 600px) {
     #header {
-	padding-top: 60px;    
+	  
         background-image: url('5.jpg'); /* Make sure to use the correct file path and name */
         background-size: cover; /* Ensure the background image covers the entire container */
         background-position: center; /* Center the background image */
@@ -344,14 +344,13 @@ form .btn2 {
 	.header-text{
 		margin-top: 100%;
 		font-size: 16px;
-		color: #fff; /* Set the text color to ensure visibility against the background */
-                text-align: center; /* Center the text horizontally */
+		
 		
 	}
 	
 	.header-text h1{
 		font-size: 30px;
-		 margin-bottom: 30px; /* Add some bottom margin to separate the text from the background */
+		
 	}
 	
 	nav .fas{

@@ -384,7 +384,7 @@ form .btn2 {
 
 @media only screen and (max-width: 600px) {
     #portfolio {
-        padding: 20px; /* Adjust padding as needed */
+        padding: 30px; /* Adjust padding as needed */
         text-align: center; /* Center the content within the portfolio section */
     }
 
@@ -405,7 +405,7 @@ form .btn2 {
     }
 
     .work .layer {
-        padding: 30px; /* Adjust padding as needed */
+        padding: 20px; /* Adjust padding as needed */
     }
 
     .work h3 {
